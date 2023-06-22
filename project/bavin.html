@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+<html>
+	<head>
+    <style>
+      a {
+      text-decoration:none
+      }
+      body {
+        background-color:rgb(177, 215, 215);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 80vh;
+        margin: 0 auto;
+      }
+      .container {
+        background-color: aliceblue;
+        border-radius: 10px;
+        width: 380px;
+        max-width: 100%;
+        min-height: 440px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 14px 28px rgba(0, 0, 0, .25);
+      }
+      form {
+       text-align: center;
+      }
+      button {
+        width: 50%;
+        margin: 3%;
+        padding: 10px 30px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+      background-color:#add8e6;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, .25);
+      
+      }
+      label{
+        font-size: 20px;
+        margin-right: 60%;
+      }
+      input {
+        width: 80%;
+        margin: 5% auto;
+        margin-bottom: 8%;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: rgb(8, 9, 10);
+        border-bottom: 1px solid rgba(0, 0, 0, .25);
+      }
+      ::placeholder {
+        color: black;
+      }
+      </style>
+    
+		<title>   Login page    </title>
+		<link rel="stylesheet" href="style.css"> 
+	</head>
+	<body>
+  
+   
+
+    
+    
+    <div>
+     <br><br>
+    <div class="container">
+      <form action="action_page.php" method="post">
+      <h1>Login</h1>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <br><br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br><br>
+      <button type="submit">Login</button>
+      
+      <br><br>
+    
+      <span class="psw"><a href="./forgotpass.html">Forgot password?</a></span>
+    
+    </div>
+    
+  </form>
+	</body>
+</html>
+
+
+    
+  
